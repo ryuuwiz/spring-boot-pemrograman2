@@ -12,7 +12,7 @@ import java.util.List;
 public class KelompokController {
 
     @Autowired
-    private final KelompokService kelompokService;
+    private KelompokService kelompokService;
 
     public KelompokController(KelompokService kelompokService) {
         this.kelompokService = kelompokService;
